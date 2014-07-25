@@ -1,0 +1,59 @@
+body{
+	background: url(../img/flag.jpg) no-repeat center -1px;
+}
+
+#container{
+	width:900px;
+	margin:auto;
+	position:relative;
+	font-family: Century Gothic, sans-serif;
+}
+
+/*_________________HEADER*/
+
+#header{
+	margin:40px 0 0 0;
+	height:112px;
+	font-size: 14px
+}
+#logo{
+	margin:0 10px 0 29px;
+	float:left;
+}
+#menu{
+	float:right;
+	margin:30px 0 0 0;
+	padding:0;
+	height:20px;
+	list-style:none;
+}
+#menu>li{
+	float:left;
+	margin:0 0 0 35px;
+	cursor:pointer;
+	color:#929292;
+}
+#menu>li:last-child{
+	margin:0 28px 0 35px;
+}
+/*_________________HEADER*/
+#mission{
+	width:610px;
+	margin:auto;
+	height:200px;
+}
+#mission>img:first-child{
+	float:left;
+	margin:0 20px 0 0;
+}
+#mission>p{
+	text-align: center;
+	width:490px;
+	margin:-15px 0 0 0;
+	font-size: 14px;
+	float: left;
+}
+#mission>img:last-child{
+	float:right;
+	margin:0 0 0 20px;
+}
